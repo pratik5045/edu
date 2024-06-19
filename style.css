@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.aboutus-container{
+    height: 40vw;
+    width: 100%;
+    background-color: aliceblue;
+}
+.upper-container{
+   height: 40%;
+   width: 100%;
+   /* background-color: tomato;  */
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+}
+.upper-container h5{
+    margin-top: 2.5vw;
+    font-size: 2.5vh;
+    color: #007bff;
+}
+.upper-container h2{
+    margin-top: .5vw;
+    text-align: center;
+    font-size: 4.5vh;
+    color: #003078;
+}
+.upper-container p{
+    text-align: center;
+    margin-top: .5vw;
+    line-height: 1.5;
+    font-size: 2vh;
+    color: #555;
+}
+
+.mid-container{
+    height: 5vh;
+    /* background-color: black; */
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mid-container a{
+    text-decoration: none;
+    color: #3e8bfe;
+    font-size: 3vh;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mid-container a:hover{
+    text-decoration: underline #3e8bfe;
+}
+.lower-container{
+    height: 50%;
+    width: 80%;
+    /* background-color: brown; */
+    margin-top: 1.5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction:row;
+}
+
+.lower-container img{
+    width: 100%;
+    height: 100%;
+}
+.journey-section{
+  display: none;
+}
+.journey-section.active{
+    display: block;
+}
+#our-journey img{
+    width: 80vw;
+}
+#tech-journey img{
+width: 80vw;
+}
+#collaborations img{
+    margin-left: 8vw;
+}
